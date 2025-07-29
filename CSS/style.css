@@ -1,0 +1,166 @@
+html {
+    background-image: url(../IMG/backg.jpg);
+    background-repeat:repeat;
+    
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: italic;
+}
+
+body{
+    background: #F5FAEB repeat-y content-box;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.clear {
+    clear: both;
+}
+
+div#container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+div#header {
+    width: 800px;
+    height: 160px;
+    background: url(../IMG/Excelsior.png) no-repeat;
+}
+
+div#menu {
+    width: 800px;
+    height: 40px;
+    background-color: #7A9F24;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div#menu ul li {
+    float: left;
+    border-right: 1px solid #b7e941;
+    border-left: 1px solid #526b19;
+}
+div#menu ul li:first-child{
+    border-left: 0;
+}
+div#menu ul li:last-child{
+    border-right: 0;
+}
+
+div#menu ul li a {
+    font-weight: bold;
+    color: #FFF;
+    padding: 11px 8px 11px 8px;
+    display: block;
+    font-size: 14px;
+}
+
+div#menu ul li a:hover{
+	background-color: #516918;
+    color: #FF8409;
+}
+
+div#content {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+div#fooldal {
+    margin: 0 auto;
+    background-image: url(../IMG/MainPic.jpg);
+    width: 720px;
+    height: 450px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+div#centerszoveg {
+    margin-top: 20px;
+    font-size: 18px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+#freeTimeTable {
+	text-align: justify;
+	margin-left: 2%;
+    margin-right: 2%;
+}
+
+.login-div{
+    text-align: left;
+    padding: 15px;
+    border: solid 1px #f39b43;
+    box-shadow: 0 0 2px;
+    display: inline-block;
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.login-div button:hover{
+    box-shadow: 2px 2px 3px #464444;
+}
+
+.login-div input:focus {
+    box-shadow: 2px 2px 3px #464444;
+    border: none;
+}
+
+.reg-div {
+    text-align: left;
+    padding: 15px;
+    border: solid 1px #f39b43;
+    box-shadow: 0 0 2px;
+    display: inline-block;
+}
+.reg-div input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.reg-div button:hover{
+    box-shadow: 2px 2px 3px #464444;
+}
+
+.res-div {
+    text-align:justify;
+    padding: 15px;
+    border: solid 1px #f39b43;
+    box-shadow: 0 0 2px;
+    display: inline-block;
+}
+.res-div input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.res-div button:hover{
+    box-shadow: 2px 2px 3px #464444;
+}
+
+.description{
+    resize: none;
+    height: 100px;
+    width: 400px;
+}
